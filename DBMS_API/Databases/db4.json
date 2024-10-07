@@ -1,0 +1,85 @@
+{
+  "Name": "db4",
+  "Tables": [
+    {
+      "Name": "tb1",
+      "Schema": {
+        "Fields": [
+          {
+            "Name": "ID",
+            "Type": "int",
+            "LowerBound": null,
+            "UpperBound": null
+          },
+          {
+            "Name": "12",
+            "Type": "int",
+            "LowerBound": null,
+            "UpperBound": null
+          }
+        ],
+        "Name": "sch1"
+      },
+      "Rows": [],
+      "_nextId": 1
+    },
+    {
+      "Name": "tb12",
+      "Schema": {
+        "Fields": [
+          {
+            "Name": "ID",
+            "Type": "int",
+            "LowerBound": null,
+            "UpperBound": null
+          },
+          {
+            "Name": "12",
+            "Type": "timeint",
+            "LowerBound": "12:12:12",
+            "UpperBound": "13:13:13"
+          }
+        ],
+        "Name": "shch"
+      },
+      "Rows": [],
+      "_nextId": 1
+    }
+  ],
+  "Schemas": [
+    {
+      "Fields": [
+        {
+          "Name": "ID",
+          "Type": "int",
+          "LowerBound": null,
+          "UpperBound": null
+        },
+        {
+          "Name": "12",
+          "Type": "int",
+          "LowerBound": null,
+          "UpperBound": null
+        }
+      ],
+      "Name": "sch1"
+    },
+    {
+      "Fields": [
+        {
+          "Name": "ID",
+          "Type": "int",
+          "LowerBound": null,
+          "UpperBound": null
+        },
+        {
+          "Name": "12",
+          "Type": "timeint",
+          "LowerBound": "12:12:12",
+          "UpperBound": "13:13:13"
+        }
+      ],
+      "Name": "shch"
+    }
+  ]
+}
